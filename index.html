@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your age In...</title>
+    <link rel="stylesheet" href="yourAgeIn.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container-first">
+        <h1 id="title">Your age in days</h1>
+        <div class="container-flex">
+
+        <div> 
+        <button class="age-button" onclick="ageInDays()">click me</button>
+        </div>
+        <div> 
+        <button class="reset-button" onclick="reset()">reset</button>
+        </div> 
+        </div>
+        <div class="container-flex">
+            <div id="flex-box-result"></div>
+        </div>
+    </div>
+
+    <div class="container-second">
+        <h1 id="title">Your age in hours</h1>
+        <div class="container-flex2">
+            <div> 
+            <button class="age-button2" onclick="ageInHours()">click me</button>
+            </div>
+            <div> 
+            <button class="reset-button2" onclick="reset2()">reset</button>
+            </div> 
+        </div>
+        <div class="container-flex">
+            <div id="flex-box-result2"></div>
+        </div>
+    </div>
+</br>
+    <script src="yourAgeIn.js"></script>
+</body>
+</html>
